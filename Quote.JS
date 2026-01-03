@@ -33,7 +33,7 @@ newQuote.addEventListener(`keypress`, function (e) {
 copyQuote
   .addEventListener("click", () => {
     let quote = localStorage.getItem(`quote`);
-    alert(`copeid`);
+    alert(`copied`);
     navigator.clipboard.writeText(quote);
   })
 
